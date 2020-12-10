@@ -1,0 +1,395 @@
+{
+	"class_default": {
+		"time": "09:30",
+		"duration": "80"
+	},
+	"events" : [
+		{
+			"date": "2021-01-04",
+			"type": "class",
+			"title": "Lecture on History & Course Overview",
+			"notes": "There are no readings for this session."
+		},
+		{
+			"date": "2021-01-06",
+			"type": "class",
+			"leaders": ["Daniel"],
+			"title": "Visions of Ubiquitous Computing",
+			"framing_readings": [
+				{
+					"authors": ["Mark Weiser"],
+					"title": "The Computer for the 21st Century",
+					"venue": "Scientific American",
+					"volume": 265,
+					"issue": 3,
+					"date": "1991",
+					"link": "https://www.jstor.org/stable/24938718"
+				},
+				{
+					"authors": ["Gregory D. Abowd", "Elizabeth D. Mynatt"],
+					"title": "Charting Past, Present, and Future Research in Ubiquitous Computing",
+					"venue": "TOCHI",
+					"volume": 7,
+					"issue": 1,
+					"date": "2000",
+					"link": "https://doi.org/10.1145/344949.344988"
+				}
+			],
+			"notes": "There are no papers of current research contributions this session."
+		},
+		{
+			"date": "2021-01-11",
+			"type": "class",
+			"title": "Lecture on Activity Recognition",
+			"framing_readings": [
+				{
+					"authors": ["Andreas Bulling", "Ulf Blanke", "Bernt Schiele"],
+					"title": "A Tutorial on Human Activity Recognition Using Body-Worn Inertial Sensors",
+					"venue": "ACM Computing Surveys",
+					"volume": "33",
+					"date": "2014",
+					"link": "https://dl.acm.org/doi/10.1145/2499621"
+				}
+			]
+		},
+		{
+			"date": "2021-01-13",
+			"type": "due",
+			"title": "Discussion Leading Preferences",
+			"link": "tbd"
+		},
+		{
+			"date": "2021-01-13",
+			"type": "project",
+			"title": "Project Proposal",
+			"anchor": "proposal",
+			"link": {"document": "tbd", "presentation": "tbd"}
+		},
+		{
+			"date": "2021-01-13",
+			"type": "class",
+			"title": "Project Proposal Presentations"
+		},
+		{
+			"date": "2021-01-18",
+			"type": "holiday",
+			"title": "No class, Martin Luther King Day"
+		},
+		{
+			"date": "2021-01-20",
+			"type": "class",
+			"leaders": ["TBD"],
+			"title": "Human Behavior and Context Sensing",
+			"framing_readings": [
+				{
+					"authors": ["Anind K. Dey"],
+					"title": "Understanding and Using Context",
+					"volume": 4,
+					"date": "2001",
+					"link": "https://link.springer.com/article/10.1007/s007790170019"
+				},
+				{
+					"authors": ["Paul Dourish"],
+					"title": "What We Talk About When We Talk About Context",
+					"venue": "Personal and Ubiquitous Computing",
+					"volume": 8,
+					"issue": 1,
+					"date": "2004",
+					"link": "https://doi.org/10.1007/s00779-003-0253-8",
+					"notes": "You may skim sections 3-5."
+				}
+			],
+			"current_readings": [
+				{
+					"tbd":"tbd"
+				}
+			]
+		},
+		{
+			"date": "2021-01-25",
+			"type": "class",
+			"title": "Lecture on Behavior Change",
+			"framing_readings": [
+				{
+					"authors":["Sunny Consolvo", "David W. McDonald", "James A. Landay"],
+					"title": "Theory-Driven Design Strategies for Technologies that Support Behavior Change in Everyday Life",
+					"venue": "CHI 2009",
+					"date": "2009",
+					"link": "https://dl.acm.org/doi/abs/10.1145/1518701.1518766"
+				}
+			]
+		},
+		{
+			"date": "2021-01-27",
+			"type": "class",
+			"leaders": ["TBD"],
+			"title": "Self-Improvement Technology",
+			"framing_readings": [
+				{
+					"authors":["Thomas Fritz", "Elaine M. Huang", "Gail C. Murphy", "Thomas Zimmermann"],
+					"title": "Persuasive Technology in the Real World: a Study of Long-Term Use of Activity Sensing Devices for Fitness",
+					"venue": "CHI 2014",
+					"date": "2014",
+					"link": "https://dl.acm.org/doi/abs/10.1145/2556288.2557383"
+				}
+			],
+			"current_readings": [
+				{
+					"tbd":"tbd"
+				}
+			]
+		},
+		{
+			"date": "2021-02-01",
+			"type": "class",
+			"leaders": ["TBD"],
+			"title": "Human Emotion Sensing",
+			"framing_readings": [
+				{
+					"authors":["Rosiland W. Picard"],
+					"title": "Affective Computing",
+					"volume": "MIT Media Lab Technical Report",
+					"date": "1995",
+					"link": "http://www.macs.hw.ac.uk/~yjc32/project/ref-social%20media%20campaign/1995-affective%20computing.pdf"
+				}
+			],
+			"current_readings": [
+				{
+					"tbd":"tbd"
+				}
+			]
+		},
+		{
+			"date": "2021-02-03",
+			"type": "class",
+			"leaders": ["TBD"],
+			"title": "Speech Interaction",
+			"framing_readings": [
+				{
+					"authors":["Susan E. Brennan"],
+					"title": "Conversation With and Through Computers",
+					"venue": "User Modeling and User Adapted Interaction",
+					"volume": 1,
+					"date": "1991",
+					"link": "https://link.springer.com/article/10.1007/BF00158952"
+				},
+				{
+					"authors":["Ewa Luger", "Abigail Sellen"],
+					"title": "\"Like Having a Really Bad PA\": The Gulf between User Expectation and Experience of Conversational Agents",
+					"venue": "CHI 2016",
+					"date": "2016",
+					"link": "https://dl.acm.org/doi/abs/10.1145/2858036.2858288"
+				}
+			],
+			"current_readings": [
+				{
+					"tbd":"tbd"
+				}
+			]
+		},
+		{
+			"date": "2021-02-05",
+			"type": "assignments",
+			"title": "Assignment 1",
+			"anchor": "assignment1",
+			"link": "tbd"
+		},
+		{
+			"date": "2021-02-08",
+			"type": "class",
+			"leaders": ["TBD"],
+			"title": "Ubiquitous Environments",
+			"framing_readings": [
+				{
+					"authors":["W. Kieth Edwards", "Rebecca E. Grinter"],
+					"title": "At Home with Ubiquitous Computing: Seven Challenges",
+					"venue": "UbiComp 2001",
+					"date": "2001",
+					"link": "https://link.springer.com/chapter/10.1007/3-540-45427-6_22"
+				}
+			],
+			"current_readings": [
+				{
+					"tbd":"tbd"
+				}
+			]
+		},
+		{
+			"date": "2021-02-10",
+			"type": "project",
+			"anchor": "milestone",
+			"title": "Milestone Report",
+			"link": {"document": "tbd", "presentation": "tbd"}
+		},
+		{
+			"date": "2021-02-10",
+			"type": "class",
+			"title": "Project Milestone Presentations"
+		},
+		{
+			"date": "2021-02-15",
+			"type": "holiday",
+			"title": "No class, President's Day"
+		},
+		{
+			"date": "2021-02-17",
+			"type": "class",
+			"leaders": ["TBD"],
+			"title": "Privacy",
+			"framing_readings": [
+				{
+					"authors": ["Marc Langheinrich"],
+					"title": "Privacy in Ubiquitous Computing",
+					"venue": "Chapter 3 in Ubiquitous Computing Fundamentals, John Krumm",
+					"date": "2009",
+					"link": "https://uc.inf.usi.ch/wp-content/cache/mendeley-file-cache/8bfbde68-ca7e-38ec-9c7a-f3e82297ce3c.pdf"
+				}
+			],
+			"current_readings": [
+				{
+					"tbd":"tbd"
+				}
+			]
+		},
+		{
+			"date": "2021-02-22",
+			"type": "class",
+			"leaders": ["TBD"],
+			"title": "Security",
+			"framing_readings": [
+				{
+					"authors": ["Frank Stajano"],
+					"title": "Security Issues in Ubiquitous Computing",
+					"venue": "Handbook of Ambient Intelligence and Smart Environments",
+					"date": "2009",
+					"link": "https://link.springer.com/chapter/10.1007/978-0-387-93808-0_11"
+				}
+			],
+			"current_readings": [
+				{
+					"tbd":"tbd"
+				}
+			]
+		},
+		{
+			"date": "2021-02-24",
+			"type": "class",
+			"leaders": ["TBD"],
+			"title": "Physical Interaction Techniques",
+			"framing_readings": [
+				{
+					"authors": ["Dan Morris", "T. Scott Saponas", "Desney Tan"],
+					"title": "Emerging Input Technologies for Always-Available Mobile Interaction",
+					"venue": "Foundations and Trends in Human-Computer Interaction",
+					"volume": 4,
+					"issue": 4,
+					"date": "2011",
+					"link": "https://www.nowpublishers.com/article/Details/HCI-023",
+					"notes": "Focus on chapters 1, 2, and 4. Skip/skim the remaining chapters."
+				}
+			],
+			"current_readings": [
+				{
+					"tbd":"tbd"
+				}
+			]
+		},
+		{
+			"date": "2021-02-26",
+			"type": "assignments",
+			"title": "Assignment 2",
+			"anchor": "assignment2",
+			"link": "tbd"
+		},
+		{
+			"date": "2021-03-01",
+			"type": "class",
+			"leaders": ["TBD"],
+			"title": "Location & Mobility",
+			"framing_readings": [
+				{
+					"authors": ["Jeffrey Hightower", "Gaetano Borriello"],
+					"title": "Location Systems for Ubiquitous Computing",
+					"venue": "IEEE Computer",
+					"volume": 34,
+					"issue": 8,
+					"date": "2001",
+					"link": "https://ieeexplore.ieee.org/abstract/document/940014"
+				}
+			],
+			"current_readings": [
+				{
+					"tbd":"tbd"
+				}
+			]
+		},
+		{
+			"date": "2021-03-03",
+			"type": "class",
+			"leaders": ["TBD"],
+			"title": "Augmented and Virtual Reality",
+			"framing_readings": [
+				{
+					"authors":["Thad Starner", "Steve Mann", "Bradley Rhodes", "Jeffrey Levine", "Jennifer Healey", "Dana Kirsch", "Rosiland W. Picard", "Alex Pentland"],
+					"title": "Augmented Reality through Wearable Computing",
+					"venue": "PRESENCE: Virtual and Augmented Reality",
+					"volume": 6,
+					"issue": 4,
+					"date": "1997",
+					"link": "https://www.mitpressjournals.org/doi/abs/10.1162/pres.1997.6.4.386"
+				},
+				{
+					"authors":["Stuart Reeves"],
+					"title": "Envisioning Ubiquitous Computing",
+					"venue": "CHI 2012",
+					"date": "2012",
+					"link": "https://dl.acm.org/doi/abs/10.1145/2207676.2208278"
+				}
+			],
+			"current_readings": [
+				{
+					"tbd":"tbd"
+				}
+			]
+		},
+		{
+			"date": "2021-03-08",
+			"type": "class",
+			"leaders": ["TBD"],
+			"title": "Critical Perspectives",
+			"framing_readings": [
+				{
+					"authors": ["Paul Dourish", "Scott D. Mainwaring"],
+					"title": "Ubicomp's Colonial Impulse",
+					"venue": "UbiComp 2012",
+					"date": "2012",
+					"link": "https://dl.acm.org/doi/abs/10.1145/2370216.2370238"
+				}
+			],
+			"current_readings": [
+				{
+					"tbd":"tbd"
+				}
+			]
+		},
+		{
+			"date": "2021-03-10",
+			"type": "project",
+			"title": "Final Presentation",
+			"anchor": "finalpresentation",
+			"link": "tbd"
+		},
+		{
+			"date": "2021-03-10",
+			"type": "class",
+			"title": "Project Final Presentations"
+		},
+		{
+			"date": "2021-03-17",
+			"type": "project",
+			"title": "Final Report",
+			"anchor": "finalreport",
+			"link": "tbd"
+		}
+	]
+}

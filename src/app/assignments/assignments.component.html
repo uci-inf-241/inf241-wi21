@@ -1,0 +1,26 @@
+<main class="container-fluid">
+   <h1>Assignments</h1>
+   <p>There will be two assignments in this class, one on activity recognition and one on voice interfaces.</p>
+   <h2>Assignment 1</h2>
+   <p>This assignment is still being developed.</p>
+   <h4>Requirements</h4>
+   <p>TBD.</p>
+   <h4>Submission</h4>
+   <span *ngFor="let assignment of assignments">
+      <div *ngIf="assignment.anchor == 'assignment1'">
+         <p>Due {{assignment.dueLong}}.</p>
+         <p>Submit your assignment as a ZIP: <a [href]="assignment.link">{{assignment.link}}</a></p>
+      </div>
+   </span>
+   <h2>Assignment 2</h2>
+   <p>This assignment is still being developed.</p>
+   <h4>Requirements</h4>
+   <p>TBD.</p>
+   <h4>Submission</h4>
+   <span *ngFor="let assignment of assignments">
+      <div *ngIf="assignment.anchor == 'assignment2'">
+         <p>Due {{assignment.dueLong}}.</p>
+         <p>Submit your assignment as a ZIP: <a [href]="assignment.link">{{assignment.link}}</a></p>
+      </div>
+   </span>
+</main>
