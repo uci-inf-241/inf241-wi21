@@ -25,9 +25,9 @@ export class CalendarComponent implements OnInit {
 	calendar['events'].sort((a, b) => {
 		return moment(a.date).diff(moment(b.date));
 	});
-	this.calendar = [{'date_str': moment(calendar['events'][0].date).format("MMMM D"), "events":[]}];
+	this.calendar = [{'date_str': moment(calendar['events'][0].date).format("ddd MMM D"), "events":[]}];
 	calendar['events'].forEach((event) => {
-		var date_str = moment(event.date).format("MMMM D");
+		var date_str = moment(event.date).format("ddd MMM D");
 		if(date_str != this.calendar[this.calendar.length - 1].date_str) {
 			this.calendar.push({'date_str': date_str, "events":[]});
 		}

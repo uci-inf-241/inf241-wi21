@@ -1,13 +1,13 @@
-<main class="container-fluid">
+<main>
 	<h1>Calendar</h1>
 	<p>Your discussion leading group must choose two recent papers to assign for each week. I have assembled a list of recommendations for <a href="https://docs.google.com/document/d/1yD0HThD8kcgEbEjso0nBObhhi8GAn5Ciw_EXPRTIpfs/edit?usp=sharing">recent papers</a>. You may choose from these papers or suggest another paper(s) not on this list.</p>
-	<ng-container *ngFor="let day of calendar">
+	<div *ngFor="let day of calendar">
 		<hr class="row">
 		<div class="row">
-			<div class="col-2">
+			<div class="col-3 col-md-2">
 				<h2>{{day.date_str}}</h2>
 			</div>
-			<div class="col-10">
+			<div class="col-9 col-md-10">
 				<div class="event" [ngClass]="event.type" *ngFor="let event of day.events">
 					<h2 *ngIf="event.type == 'class'">
 						{{event.title}}
@@ -49,5 +49,5 @@
 				</div>
 			</div>
 		</div>
-	</ng-container>
+	</div>
 </main>
