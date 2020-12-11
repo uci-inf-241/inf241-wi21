@@ -56,14 +56,14 @@
 			"date": "2021-01-13",
 			"type": "due",
 			"title": "Discussion Leading Preferences",
-			"link": "tbd"
+			"link": "https://canvas.eee.uci.edu/courses/32800/quizzes/136962"
 		},
 		{
 			"date": "2021-01-13",
 			"type": "project",
 			"title": "Project Proposal",
 			"anchor": "proposal",
-			"link": {"document": "tbd", "presentation": "tbd"}
+			"link": {"document": "https://canvas.eee.uci.edu/courses/32800/assignments/639776", "presentation": "https://canvas.eee.uci.edu/courses/32800/assignments/639808"}
 		},
 		{
 			"date": "2021-01-13",
@@ -219,7 +219,7 @@
 			"type": "project",
 			"anchor": "milestone",
 			"title": "Milestone Report",
-			"link": {"document": "tbd", "presentation": "tbd"}
+			"link": {"document": "https://canvas.eee.uci.edu/courses/32800/assignments/639777", "presentation": "https://canvas.eee.uci.edu/courses/32800/assignments/639778"}
 		},
 		{
 			"date": "2021-02-10",
@@ -377,7 +377,7 @@
 			"type": "project",
 			"title": "Final Presentation",
 			"anchor": "finalpresentation",
-			"link": "tbd"
+			"link": "https://canvas.eee.uci.edu/courses/32800/assignments/639780"
 		},
 		{
 			"date": "2021-03-10",
@@ -389,7 +389,7 @@
 			"type": "project",
 			"title": "Final Report",
 			"anchor": "finalreport",
-			"link": "tbd"
+			"link": "https://canvas.eee.uci.edu/courses/32800/assignments/639779"
 		}
 	]
 }
