@@ -2,14 +2,47 @@
    <h1>Assignments</h1>
    <p>There will be two assignments in this class, one on activity recognition and one on voice interfaces.</p>
    <h2>Assignment 1</h2>
-   <p>This assignment is still being developed.</p>
-   <h4>Requirements</h4>
-   <p>TBD.</p>
-   <h4>Submission</h4>
+   <p>This assignment explores how to promote people's physical activity. You can choose to either implement a step counter from accelerometer and/or gyroscope data or design an app to promote physical activity. You will not receive extra credit for doing both, but we're happy to give feedback on the other if you want an extra challenge.</p>
+   <h3>Option A: step counter</h3>
+   <p>Develop a mobile webapp that counts steps. Implement an interface that shows the number of steps a person walks when they are holding their phone in their hand. Although many of today's phones have pedometers built-in, you will use the raw data from the accelerometer and/or gyroscope to complete this task.</p>
+   <p>The data will require some signal processing before you can count the number of steps. You can use peak detection, zero crossings, or any other technique you arrive on your own.</p>
+   <p>Your webapp would also display the sensor data and/or processed data in real time. If you make any assumptions about the phone's orientation, your app should indicate those assumptions.</p>
+   <h4>Getting started</h4>
+   <p>Starter code is available <a href="assets/a1_starter.zip">here</a>. To run the code, you will need to run an http server on your computer (I use <a href="https://www.npmjs.com/package/live-server">live-server</a>). Accessing device resources <a href="https://w3c.github.io/deviceorientation/#security-and-privacy">requires HTTPS</a>, so you'll also need to create a tunnel (I use <a href="https://ngrok.com/">ngrok</a>). For example, I use <code>live-server --port=8000</code> to serve my webpage on port 8000 and <code>ngrok http 8000</code> to create a tunnel, and then visit the tunneled site (<code>https://[hex numbers].ngrok.io</code>) on my phone.</p>
+   <h4>Grading</h4>
+   <p>This will be graded on a scale of 10 points, broken down as follows.</p>
+      <ul>
+         <li>Performance (5 points)</li>
+         <li>Real-time data display (2 points)</li>
+         <li>Resilience to spurious data, such as hand movement (1 point)</li>
+         <li>Description of your approach (1 point)</li>
+      </ul>
+   <p>Full credit will be given if the steps counted is within 15% of actual step count when walking around for ~1 minute. You will lose a point for every 10% error beyond that.</p>
+   <h3>Option B: physical activity app</h3>
+   <p>Come up with an idea for how a system can help promote physical activity, and design a mid-fidelity prototype of that system. Your system should be driven by theoretical approaches to self-improvement, such as leveraging a principle from <a href="https://aisel.aisnet.org/cgi/viewcontent.cgi?article=3424&context=cais">persuasive design</a> or a <a href="https://ore.exeter.ac.uk/repository/bitstream/handle/10871/13753/Abraham%20%20Michie%20_2008_%20Behaviour%20Change%20Techniques%20Taxonomy%20Health%20Psychology.pdf;sequence=2">behavior change technique</a>. As discussed in class, research apps like UbiFit and Fish'n'Steps and commercial products like Fitbit and Apple Health implement many theoretical approaches to promoting physical activity. The goal of this assignment is to explore novel or alternate approaches to promoting physical activity. Therefore, pick at least one approach the system does not implement. Your system can be a mobile app, wearable, or something else entirely.</p>
+   <p>Contrast your design idea with more recent literature (e.g., from the last 5-10 years) to show how it expands on our current best approaches to promoting physical activity. You may find it useful to search for research papers which cite UbiFit, Fish'n'Steps, etc. You may also find it useful to search for papers on promoting physical activity in our <a href="http://personal-informatics.depstein.net/">mapping review</a>. Or you may find an open-ended literature review effective. There is no lower or upper limit on the amount of literature to include, but you should include enough to explain how your approach extends current strategies.</p>
+   <p>Begin by creating low-fidelity sketches of your design, such as on paper. Then implement a mid-fidelity prototype of your design (e.g., wireframe, mockup, clickable/interactive). You can choose whatever tool you'd like for creating your prototype, but some recommendations include <a href="https://balsamiq.com/">Balsamiq</a>, <a href="https://www.axure.com/">Axure</a>, <a href="https://www.sketch.com/">Sketch</a>, and <a href="https://www.adobe.com/products/xd.html">Adobe XD</a>. We acknowledge that these tools vary in price, but some are free and many have trial editions to allow for exploration.</p>
+   <h4>Grading</h4>
+   <p>This will be graded on a scale of 10 points, broken down as follows.</p>
+   <ul>
+      <li>Theoretical foundation for the approach (2 points)</li>
+      <li>Contrast with other research literature and novelty of the approach (3 points)</li>
+      <li>Quality and descriptiveness of the mid-fidelity prototypes (5 points)</li>
+   </ul>
+   <p></p>
+   <h3>Submission</h3>
+   <p>For Option A, submit a ZIP with your HTML and JavaScript code in a folder labeled <code>code</code>. In the root of your ZIP, include a <code>description.txt</code> file briefly describing your approach (1-2 paragraphs).</p>
+   <p>For Option B, submit a roughly 5-page PDF addressing the following points:</p>
+   <ul>
+      <li>Describe the strategy or strategies used in your design to promote physical activity.</li>
+      <li>Explain how your approach implements the theoretical strategies.</li>
+      <li>Contrast your approach with recent literature on promoting physical activity.</li>
+      <li>Include a few screenshots of your mockup, explaining how a person would use your system.</li>
+   </ul>
    <span *ngFor="let assignment of assignments">
       <div *ngIf="assignment.anchor == 'assignment1'">
          <p>Due {{assignment.dueLong}}.</p>
-         <p>Submit your assignment as a ZIP: <a [href]="assignment.link">{{assignment.link}}</a></p>
+         <p>Submit your assignment as a ZIP or PDF: <a [href]="assignment.link">{{assignment.link}}</a></p>
       </div>
    </span>
    <h2>Assignment 2</h2>
