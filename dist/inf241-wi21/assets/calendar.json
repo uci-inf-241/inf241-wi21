@@ -8,7 +8,8 @@
 			"date": "2021-01-04",
 			"type": "class",
 			"title": "Lecture on History & Course Overview",
-			"notes": "There are no readings for this session."
+			"notes": "There are no readings for this session.",
+			"slides": "assets/slides/01_04_21_introduction.pdf"
 		},
 		{
 			"date": "2021-01-06",
@@ -35,7 +36,14 @@
 					"link": "https://doi.org/10.1145/344949.344988"
 				}
 			],
-			"notes": "There are no papers of current research contributions this session."
+			"notes": "There are no papers of current research contributions this session.",
+			"slides": "assets/slides/01_06_21_visions.pdf"
+		},
+		{
+			"date": "2021-01-11",
+			"type": "due",
+			"title": "Discussion Leading Preferences",
+			"link": "https://canvas.eee.uci.edu/courses/32800/quizzes/136962"
 		},
 		{
 			"date": "2021-01-11",
@@ -50,13 +58,8 @@
 					"date": "2014",
 					"link": "https://dl.acm.org/doi/10.1145/2499621"
 				}
-			]
-		},
-		{
-			"date": "2021-01-13",
-			"type": "due",
-			"title": "Discussion Leading Preferences",
-			"link": "https://canvas.eee.uci.edu/courses/32800/quizzes/136962"
+			],
+			"slides": "assets/slides/01_11_21_activity_recognition.pdf"
 		},
 		{
 			"date": "2021-01-13",
