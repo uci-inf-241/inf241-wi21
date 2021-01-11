@@ -27,7 +27,7 @@
 						<li *ngFor="let reading of event.framing_readings"><app-paper [paper]="reading"></app-paper></li>
 					</ul>
 					<p *ngIf="event.current_readings">
-						Read one of the recent readings:
+						Read the recent reading:
 					</p>
 					<ul *ngIf="event.current_readings">
 						<li *ngFor="let reading of event.current_readings"><app-paper [paper]="reading"></app-paper></li>
