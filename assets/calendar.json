@@ -104,7 +104,13 @@
 			],
 			"current_readings": [
 				{
-					"tbd":"tbd"
+					"authors": ["Elena Di Lascio", "Shkurta Gashi", "Juan Sebastian Hidalgo", "Beatrice Nale", "Maike E. Debus", "Silvia Santini"],
+					"title": "A Multi-Sensor Approach to Automatically Recognize Breaks and Work Activities of Knowledge Workers in Academia",
+					"venue": "IMWUT",
+					"volume": 4,
+					"issue": 3,
+					"date": "2020",
+					"link": "https://dl.acm.org/doi/10.1145/3411821"
 				}
 			]
 		},
