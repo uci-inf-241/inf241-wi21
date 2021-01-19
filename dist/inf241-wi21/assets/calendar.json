@@ -9,7 +9,7 @@
 			"type": "class",
 			"title": "Lecture on History & Course Overview",
 			"notes": "There are no readings for this session.",
-			"slides": "assets/slides/01_04_21_introduction.pdf"
+			"slides": "assets/slides/01_04_21-introduction.pdf"
 		},
 		{
 			"date": "2021-01-06",
@@ -37,7 +37,7 @@
 				}
 			],
 			"notes": "There are no papers of current research contributions this session.",
-			"slides": "assets/slides/01_06_21_visions.pdf"
+			"slides": "assets/slides/01_06_21-visions.pdf"
 		},
 		{
 			"date": "2021-01-11",
@@ -59,7 +59,7 @@
 					"link": "https://dl.acm.org/doi/10.1145/2499621"
 				}
 			],
-			"slides": "assets/slides/01_11_21_activity_recognition.pdf"
+			"slides": "assets/slides/01_11_21-activity_recognition.pdf"
 		},
 		{
 			"date": "2021-01-13",
@@ -87,6 +87,7 @@
 				{
 					"authors": ["Anind K. Dey"],
 					"title": "Understanding and Using Context",
+					"venue": "Personal and Ubiquitous Computing",
 					"volume": 4,
 					"date": "2001",
 					"link": "https://link.springer.com/article/10.1007/s007790170019"
@@ -126,7 +127,8 @@
 					"date": "2009",
 					"link": "https://dl.acm.org/doi/abs/10.1145/1518701.1518766"
 				}
-			]
+			],
+			"slides": "assets/slides/01_25_21-behavior_change.pdf"
 		},
 		{
 			"date": "2021-01-27",
@@ -144,7 +146,22 @@
 			],
 			"current_readings": [
 				{
-					"tbd":"tbd"
+					"authors": ["Mashfiqui Rabbi", "Katherine Li", "H. Yanna Yan", "Kelly Hall", "Predrag Klasnja", "Susan Murphy"],
+					"title": "ReVibe: A Context-assisted Evening Recall Approach to Improve Self-report Adherence",
+					"venue": "IMWUT",
+					"volume": 3,
+					"issue": 4,
+					"date": "2019",
+					"link": "https://dl.acm.org/doi/10.1145/3369806"
+				},
+				{
+					"authors": ["Florian Künzler", "Varun Mishra", "Jan-Niklas Kramer", "David Kotz", "Elgar Fleisch", "Tobias Kowatsch"],
+					"title": "Evaluating the State-of-Receptivity for mHealth Interventions",
+					"venue": "IMWUT",
+					"volume": 3,
+					"issue": 4,
+					"date": "2019",
+					"link": "https://dl.acm.org/doi/10.1145/3369805"
 				}
 			]
 		},
