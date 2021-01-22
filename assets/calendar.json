@@ -113,7 +113,8 @@
 					"date": "2020",
 					"link": "https://dl.acm.org/doi/10.1145/3411821"
 				}
-			]
+			],
+			"slides":"assets/slides/01_20_21-behavior_context.pdf"
 		},
 		{
 			"date": "2021-01-25",
@@ -209,7 +210,13 @@
 			],
 			"current_readings": [
 				{
-					"tbd":"tbd"
+					"authors": ["Erin Beneteau", "Yini Guan", "Olivia K. Richards", "Mingrui Ray Zhang", "Julie A. Kientz", "Jason Yip", "Alexis Hiniker"],
+					"title": "Assumptions Checked: How Families Learn About and Use the Echo Dot",
+					"venue": "IMWUT",
+					"volume": 4,
+					"issue": 1,
+					"date": "2020",
+					"link": "https://dl.acm.org/doi/10.1145/3380993"
 				}
 			]
 		},
