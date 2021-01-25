@@ -177,12 +177,28 @@
 					"title": "Affective Computing",
 					"volume": "MIT Media Lab Technical Report",
 					"date": "1995",
-					"link": "http://www.macs.hw.ac.uk/~yjc32/project/ref-social%20media%20campaign/1995-affective%20computing.pdf"
+					"link": "http://www.macs.hw.ac.uk/~yjc32/project/ref-social%20media%20campaign/1995-affective%20computing.pdf",
+					"notes": "You can skim this; read the other readings more closely."
+				},
+				{
+					"authors":["Jiayu Shu", "Mangtik Chiu", "Pan Hui"],
+					"title": "Emotion Sensing for Mobile Computing",
+					"venue": "IEEE Communications Magazine",
+					"volume": 57,
+					"issue": 11,
+					"date": "2019",
+					"link": "https://ieeexplore.ieee.org/document/8908557"
 				}
 			],
 			"current_readings": [
 				{
-					"tbd":"tbd"
+					"authors":["Nan Gao", "Wei Shao", "Mohammad Saiedur Rahaman", "Rlora D. Salim"],
+					"title": "n-Gage: Predicting in-class Emotional, Behavioural and Cognitive Engagement in the Wild",
+					"venue": "IMWUT",
+					"volume": 4,
+					"issue": 3,
+					"date": "2020",
+					"link": "https://dl.acm.org/doi/10.1145/3411813"
 				}
 			]
 		},
