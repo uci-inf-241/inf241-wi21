@@ -201,7 +201,8 @@
 					"date": "2020",
 					"link": "https://dl.acm.org/doi/10.1145/3411813"
 				}
-			]
+			],
+			"slides":"assets/slides/02_01_21-human_emotion.pdf"
 		},
 		{
 			"date": "2021-02-03",
@@ -304,7 +305,7 @@
 		{
 			"date": "2021-02-22",
 			"type": "class",
-			"leaders": ["Yuxin Liu"],
+			"leaders": ["Myles Liu"],
 			"title": "Security",
 			"framing_readings": [
 				{
@@ -349,7 +350,7 @@
 			"type": "assignments",
 			"title": "Assignment 2",
 			"anchor": "assignment2",
-			"link": "tbd"
+			"link": "https://canvas.eee.uci.edu/courses/32800/assignments/639782"
 		},
 		{
 			"date": "2021-03-01",

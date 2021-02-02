@@ -6,7 +6,7 @@
    <h3>Option A: step counter</h3>
    <p>Develop a mobile webapp that counts steps. Implement an interface that shows the number of steps a person walks when they are holding their phone in their hand. Although many of today's phones have pedometers built-in, you will use the raw data from the accelerometer and/or gyroscope to complete this task.</p>
    <p>The data will require some signal processing before you can count the number of steps. You can use peak detection, zero crossings, or any other technique you arrive on your own.</p>
-   <p>Your webapp would also display the sensor data and/or processed data in real time. If you make any assumptions about the phone's orientation, your app should indicate those assumptions.</p>
+   <p>Your webapp should also display the sensor data and/or processed data in real time. If you make any assumptions about the phone's orientation, your app should indicate those assumptions.</p>
    <h4>Getting started</h4>
    <p>Starter code is available <a href="assets/a1_starter.zip">here</a>. To run the code, you will need to run an http server on your computer (I use <a href="https://www.npmjs.com/package/live-server">live-server</a>). Accessing device resources <a href="https://w3c.github.io/deviceorientation/#security-and-privacy">requires HTTPS</a>, so you'll also need to create a tunnel (I use <a href="https://ngrok.com/">ngrok</a>). For example, I use <code>live-server --port=8000</code> to serve my webpage on port 8000 and <code>ngrok http 8000</code> to create a tunnel, and then visit the tunneled site (<code>https://[hex numbers].ngrok.io</code>) on my phone.</p>
    <h4>Grading</h4>
@@ -46,10 +46,57 @@
       </div>
    </span>
    <h2>Assignment 2</h2>
-   <p>This assignment is still being developed.</p>
-   <h4>Requirements</h4>
-   <p>TBD.</p>
-   <h4>Submission</h4>
+   <p>This assignment explores how to use voice assistants to support natural interactions. You can choose to either implement a sleep logging app using Amazon's Alexa Skills Kit or design and pilot a study for eliciting conversational queries for a sleep logging app.</p>
+   <h3>Option A: Alexa Skill</h3>
+   <p>Develop an Alexa Skill that responds to a range of predefined queries for journaling sleep or summarizing past sleep. Depending on the exact query a person enters, your skill may need to ask them to clarify information about their night's sleep. Each time a person journals their sleep, you should store two pieces of time information: when they went to sleep, and when they woke up. You may need to store the date separately, or may be able to combine it with the other records.</p>
+   <p>You will need to store this information in some data structure that persists between queries (like an array or a dictionary). This way, a person could later ask Alexa to recall information about their log. However, it's okay if the journaled data disappears as soon as you exit the skill; you do not need to use the device's local storage or a database.</p>
+   <p>Specifically, your skill should handle the following queries:</p>
+   <ul>
+      <li>Journaling queries:</li>
+      <ul>
+         <li><em>"Yesterday, I fell asleep at 10:15pm and got up at 6"</em></li>
+         <li><em>"I went to bed at 1am today and slept for 7 and a half hours"</em></li>
+         <li><em>"Three days ago, I woke up at 7:15am" (would need to clarify when they went to bed)</em></li>
+         <li><em>"I fell asleep at 11pm on Monday"</em> (would need to clarify when they woke up)</li>
+      </ul>
+      <li>Summarizing queries:</li>
+      <ul>
+         <li><em>"What sleep logs have I recorded?"</em> (Whatever response format is fine; this is for seeing what data is stored)</li>
+         <li><em>"When did I go to bed yesterday?"</em> (<em>"You went to bed at 10:15pm"</em>)</li>
+         <li><em>"When did I wake up three days ago?"</em> (would respond with <em>"You woke up at 7:15am"</em>)</li>
+         <li><em>"How much sleep did I get on Monday night?"</em> (Response would would vary)</li>
+      </ul>
+   </ul>
+   <h4>Getting started</h4>
+   <p>There is no starter code to provide, but the Alexa Skills Kit will offer some example queries. Go to the <a href="https://developer.amazon.com/alexa/console/ask">Alexa Developer Console</a> and create a new custom project (in Node.js). You should probably start from with a template from scratch, but you might find it helpful to look through some of the other starter skills. Change your skill invocation name to <em>sleep logger</em>. You can edit the code behind your skill from the "Code" tab. From the "Test" tab, you can invoke your skill by first speaking/typing <em>"sleep logger"</em>, and then testing your queries.</p>
+   <p>Alexa provides different <a href="https://developer.amazon.com/en-US/docs/alexa/conversations/use-slot-types.html">slot types</a> for handling dates, times, and numbers, and durations that may prove helpful. Alexa also provides the ability to create custom slots, but the expectation is that those won't be necessary for this assignment.</p>
+   <h4>Grading</h4>
+   <p>This will be graded on a scale of 10 points, broken down as follows.</p>
+   <ul>
+      <li>Ability to respond to the above queries (7 points, one per query except for "<em>What sleep logs...</em>")</li>
+      <li>Ability to respond to time and date variations of the queries (2 points)</li>
+      <li>Ability to respond to phrasing variations of the queries, like "<em>got up</em>" versus "<em>woke up</em>" (1 point)</li>
+   </ul>
+   <p>Full credit will be given for handling reasonable time, date, and phrasing variations. Aim to robustly handle different queries, but don't lose sleep over edge cases. Describe what your approach does and does not support in your <code>description.txt</code> file.</p>
+   <h3>Option B: Elicitation Study</h3>
+   <p>People increasingly have access to devices with conversational capabilities near their bedsides, including their phone, standalone smart speakers, or smart speaker devices with screens (like Amazon's Echo Show). Pick one of these devices, design a study to elicit what questions people might want to ask the device about their sleep or sleep habits, how they would want the device to respond, and how different circumstances (time of day, presence of others) might influence the kinds of questions they ask. The study can be whatever form you want. Examples include an interview study, an observation study, a design activity, or a <a href="https://en.wikipedia.org/wiki/Wizard_of_Oz_experiment">Wizard-of-Oz</a> study. Design a protocol for your study, aiming for it to take no more than an hour of your participant's time (around 30 minutes is fine).</p>
+   <p>Recruit a friend or family member to pilot your protocol with as a participant (virtually, unless you live in the same household). This participant must not be another 241 student. Record your participant's suggestions, recommendations, concerns, etc. Recording audio and listening back may be easiest to support your recall of the pilot, but detailed notes may be sufficient.</p>
+   <h4>Grading</h4>
+   <p>This will be graded on a scale of 10 points, broken down as follows.</p>
+   <ul>
+      <li>Rationale behind the questions or activities in your protocol (4 points)</li>
+      <li>Description and insights into what sleep-related questions a device with conversational capabilities should support, based on the protocol pilot (4 points)</li>
+      <li>Reflections on what to you would improve about your protocol if you were to run it again (2 points)</li>
+   </ul>
+   <h3>Submission</h3>
+   <p>For Option A, submit a ZIP containing your <code>index.js</code> file, a <code>demo.mp4</code> file showing a recording of you demoing your skill with the described queries in the Alexa Simulator, and a <code>description.txt</code> file briefly describing what your approach does and does not support (1-2 paragraphs) and anything I would need to know in order to run your code.</p>
+   <p>For Option B, submit a roughly 5-page PDF (may be longer, depending on your protocol/design activity) addressing the following points:</p>
+   <ul>
+      <li>Include your full protocol, with comments indicating why you felt each question or activity would help elicit what a participant might want to ask their device about their sleep or sleep habits.</li>
+      <li>Describe your participant's response to each question or activity during the pilot.</li>
+      <li>Indicate what about your protocol you might aim to change if you were to continue the study.</li>
+      <li>Suggest some insights for supporting people in making sense of your sleep or sleep habits based on your pilot.</li>
+   </ul>
    <span *ngFor="let assignment of assignments">
       <div *ngIf="assignment.anchor == 'assignment2'">
          <p>Due {{assignment.dueLong}}.</p>
