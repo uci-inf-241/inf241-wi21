@@ -236,7 +236,8 @@
 					"date": "2020",
 					"link": "https://dl.acm.org/doi/10.1145/3380993"
 				}
-			]
+			],
+			"slides": "assets/slides/02_03_21-speech_interaction.pdf"
 		},
 		{
 			"date": "2021-02-05",
