@@ -262,7 +262,13 @@
 			],
 			"current_readings": [
 				{
-					"tbd":"tbd"
+					"authors": ["Auk Kim", "Jung-Mi Park", "Uichin Lee"],
+					"title": "Interruptibility for In-vehicle Multitasking: Influence of Voice Task Demands and Adaptive Behaviors",
+					"venue": "IMWUT",
+					"volume": 4,
+					"issue": 1,
+					"date": "2020",
+					"link": "https://dl.acm.org/doi/10.1145/3381009"
 				}
 			]
 		},
