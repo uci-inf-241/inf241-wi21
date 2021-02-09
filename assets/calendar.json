@@ -301,11 +301,26 @@
 					"venue": "Chapter 3 in Ubiquitous Computing Fundamentals, John Krumm",
 					"date": "2009",
 					"link": "https://uc.inf.usi.ch/wp-content/cache/mendeley-file-cache/8bfbde68-ca7e-38ec-9c7a-f3e82297ce3c.pdf"
+				},
+				{
+					"authors": ["Kovila P. L. Coopamootoo", "Thomas Groß"],
+					"title": "Why Privacy is All But Forgotten",
+					"venue": "Privacy Enhancing Technologies",
+					"volume": 2017,
+					"issue": 4,
+					"date": "2017",
+					"link": "https://doi.org/10.1515/popets-2017-0040"
 				}
 			],
 			"current_readings": [
 				{
-					"tbd":"tbd"
+					"authors":["Jingtao Wang", "Junyi Ma", "Yasha Wang", "Ning Wang", "Leye Wang", "Daqing Zhang", "Feng Wang", "Qin Lv"],
+					"title": "Will Online Digital Footprints Reveal Your Relationship Status?: An Empirical Study of Social Applications for Sexual-Minority Men",
+					"venue": "IMWUT",
+					"volume": 4,
+					"issue": 1,
+					"date": "2020",
+					"link": "https://dl.acm.org/doi/10.1145/3380978"
 				}
 			]
 		},
