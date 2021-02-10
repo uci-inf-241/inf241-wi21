@@ -270,7 +270,8 @@
 					"date": "2020",
 					"link": "https://dl.acm.org/doi/10.1145/3381009"
 				}
-			]
+			],
+			"slides": "assets/slides/02_08_21-ubiquitous_environments.pdf"
 		},
 		{
 			"date": "2021-02-10",
