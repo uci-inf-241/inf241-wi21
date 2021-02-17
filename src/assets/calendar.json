@@ -323,7 +323,8 @@
 					"date": "2020",
 					"link": "https://dl.acm.org/doi/10.1145/3380978"
 				}
-			]
+			],
+			"slides": "assets/slides/02_17_21-privacy.pdf"
 		},
 		{
 			"date": "2021-02-22",
@@ -370,7 +371,22 @@
 			],
 			"current_readings": [
 				{
-					"tbd":"tbd"
+					"authors":["Guanhong Liu", "Yizheng Gu", "Yiwen Yin", "Chun Yu", "Yuntao Wang", "Haipeng Mi", "Yuanchun Shi"],
+					"title": "Keep the Phone in Your Pocket: Enabling Smartphone Operation with an IMU Ring for Visually Impaired People",
+					"venue": "IMWUT",
+					"volume": 4,
+					"issue": 2,
+					"date": "2020",
+					"link": "https://dl.acm.org/doi/10.1145/3397308"
+				},
+				{
+					"authors":["Yiqin Lu", "Bingjian Huang", "Chun Yu", "Guahong Liu", "Yuanchun Shi"],
+					"title": "Designing and Evaluating Hand-to-Hand Gestures with Dual Commodity Wrist-Worn Devices",
+					"venue": "IMWUT",
+					"volume": 4,
+					"issue": 1,
+					"date": "2020",
+					"link": "https://dl.acm.org/doi/10.1145/3380984"
 				}
 			]
 		},
