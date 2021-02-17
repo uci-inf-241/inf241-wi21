@@ -341,7 +341,13 @@
 			],
 			"current_readings": [
 				{
-					"tbd":"tbd"
+					"authors":["Zhiyuan Wan", "Lingfeng Bao", "Debin Gao", "Eran Toch", "Xin Xia", "Tamir Mendel", "David Lo"],
+					"title": "AppMoD: Helping Older Adults Manage Mobile Security with Online Social Help",
+					"venue": "IMWUT",
+					"volume": 3,
+					"issue": 4,
+					"date": "2020",
+					"link": "https://dl.acm.org/doi/10.1145/3369819"
 				}
 			]
 		},
