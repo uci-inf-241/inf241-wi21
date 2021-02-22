@@ -350,7 +350,8 @@
 					"date": "2020",
 					"link": "https://dl.acm.org/doi/10.1145/3369819"
 				}
-			]
+			],
+			"slides":"assets/slides/02_17_21-security.pdf"
 		},
 		{
 			"date": "2021-02-24",
@@ -391,13 +392,6 @@
 			]
 		},
 		{
-			"date": "2021-02-26",
-			"type": "assignments",
-			"title": "Assignment 2",
-			"anchor": "assignment2",
-			"link": "https://canvas.eee.uci.edu/courses/32800/assignments/639782"
-		},
-		{
 			"date": "2021-03-01",
 			"type": "class",
 			"leaders": ["Arthur Tham"],
@@ -415,9 +409,22 @@
 			],
 			"current_readings": [
 				{
-					"tbd":"tbd"
+					"authors":["Yung-Ju Chang", "Chu-Yuan Yang", "Ying-Hsuan Kuo", "Wen-Hao Cheng", "Chun-Liang Yang", "Fang-Yu Lin", "I-Hui Yeh", "Chih-Kuan Hsieh", "Ching-Yu Hsieh", "Yu-Shuen Wang"],
+					"title": "Tourgether: Exploring Tourists' Real-time Sharing of Experiences as a Means of Encouraging Point-of-Interest Exploration",
+					"venue": "IMWUT",
+					"volume": 3,
+					"issue": 4,
+					"date": "2020",
+					"link": "https://dl.acm.org/doi/10.1145/3369832"
 				}
 			]
+		},
+		{
+			"date": "2021-03-03",
+			"type": "assignments",
+			"title": "Assignment 2",
+			"anchor": "assignment2",
+			"link": "https://canvas.eee.uci.edu/courses/32800/assignments/639782"
 		},
 		{
 			"date": "2021-03-03",
