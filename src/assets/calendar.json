@@ -125,7 +125,6 @@
 					"authors":["Sunny Consolvo", "David W. McDonald", "James A. Landay"],
 					"title": "Theory-Driven Design Strategies for Technologies that Support Behavior Change in Everyday Life",
 					"venue": "CHI 2009",
-					"date": "2009",
 					"link": "https://dl.acm.org/doi/abs/10.1145/1518701.1518766"
 				}
 			],
@@ -141,7 +140,6 @@
 					"authors":["Thomas Fritz", "Elaine M. Huang", "Gail C. Murphy", "Thomas Zimmermann"],
 					"title": "Persuasive Technology in the Real World: a Study of Long-Term Use of Activity Sensing Devices for Fitness",
 					"venue": "CHI 2014",
-					"date": "2014",
 					"link": "https://dl.acm.org/doi/abs/10.1145/2556288.2557383"
 				}
 			],
@@ -222,7 +220,6 @@
 					"authors":["Ewa Luger", "Abigail Sellen"],
 					"title": "\"Like Having a Really Bad PA\": The Gulf between User Expectation and Experience of Conversational Agents",
 					"venue": "CHI 2016",
-					"date": "2016",
 					"link": "https://dl.acm.org/doi/abs/10.1145/2858036.2858288"
 				}
 			],
@@ -256,7 +253,6 @@
 					"authors":["W. Kieth Edwards", "Rebecca E. Grinter"],
 					"title": "At Home with Ubiquitous Computing: Seven Challenges",
 					"venue": "UbiComp 2001",
-					"date": "2001",
 					"link": "https://link.springer.com/chapter/10.1007/3-540-45427-6_22"
 				}
 			],
@@ -418,7 +414,8 @@
 					"date": "2020",
 					"link": "https://dl.acm.org/doi/10.1145/3369832"
 				}
-			]
+			],
+			"slides":"assets/slides/03_01_21-location_mobility.pdf"
 		},
 		{
 			"date": "2021-03-03",
@@ -446,7 +443,6 @@
 					"authors":["Stuart Reeves"],
 					"title": "Envisioning Ubiquitous Computing",
 					"venue": "CHI 2012",
-					"date": "2012",
 					"link": "https://dl.acm.org/doi/abs/10.1145/2207676.2208278"
 				}
 			],
@@ -472,7 +468,6 @@
 					"authors": ["Paul Dourish", "Scott D. Mainwaring"],
 					"title": "Ubicomp's Colonial Impulse",
 					"venue": "UbiComp 2012",
-					"date": "2012",
 					"link": "https://dl.acm.org/doi/abs/10.1145/2370216.2370238"
 				}
 			],
@@ -481,14 +476,12 @@
 					"authors":["Richmond Y. Wong", "Nick Merrill", "John Chuang"],
 					"title": "When BCIs have APIs: Design Fictions of Everyday Brain-Computer Interface Adoption",
 					"venue": "DIS 2018",
-					"date": "2018",
 					"link": "https://dl.acm.org/doi/abs/10.1145/3196709.3196746"
 				},
 				{
 					"authors":["Paul Dourish", "Christopher Lawrence", "Tuck Wah Leong", "Greg Wadley"],
 					"title": "On Being Iterated: The Affective Demands of Design Participation",
 					"venue": "CHI 2020",
-					"date": "2020",
 					"link": "https://dl.acm.org/doi/abs/10.1145/3313831.3376545"
 				}
 			]
