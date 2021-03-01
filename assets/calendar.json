@@ -389,7 +389,8 @@
 					"date": "2020",
 					"link": "https://dl.acm.org/doi/10.1145/3380984"
 				}
-			]
+			],
+			"slides":"assets/slides/02_24_21-physical_interaction.pdf"
 		},
 		{
 			"date": "2021-03-01",
@@ -477,7 +478,18 @@
 			],
 			"current_readings": [
 				{
-					"tbd":"tbd"
+					"authors":["Richmond Y. Wong", "Nick Merrill", "John Chuang"],
+					"title": "When BCIs have APIs: Design Fictions of Everyday Brain-Computer Interface Adoption",
+					"venue": "DIS 2018",
+					"date": "2018",
+					"link": "https://dl.acm.org/doi/abs/10.1145/3196709.3196746"
+				},
+				{
+					"authors":["Paul Dourish", "Christopher Lawrence", "Tuck Wah Leong", "Greg Wadley"],
+					"title": "On Being Iterated: The Affective Demands of Design Participation",
+					"venue": "CHI 2020",
+					"date": "2020",
+					"link": "https://dl.acm.org/doi/abs/10.1145/3313831.3376545"
 				}
 			]
 		},
