@@ -456,7 +456,8 @@
 					"date": "2020",
 					"link": "https://dl.acm.org/doi/abs/10.1145/3397336"
 				}
-			]
+			],
+			"slides":"assets/slides/03_03_21-ar_vr.pdf"
 		},
 		{
 			"date": "2021-03-08",
