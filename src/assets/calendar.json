@@ -485,7 +485,8 @@
 					"venue": "CHI 2020",
 					"link": "https://dl.acm.org/doi/abs/10.1145/3313831.3376545"
 				}
-			]
+			],
+			"slides":"assets/slides/03_08_21-critical_perspectives.pdf"
 		},
 		{
 			"date": "2021-03-10",
